@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
 #Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/bin/adsprpcd:system/bin/adsprpcd \
@@ -284,6 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -296,6 +298,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -401,6 +404,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
@@ -411,6 +415,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/lenovo/A6020/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
