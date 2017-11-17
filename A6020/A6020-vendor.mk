@@ -45,3 +45,16 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A6020/propri
 
 PRODUCT_COPY_FILES += vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 PRODUCT_COPY_FILES += vendor/lenovo/A6020/proprietary/vendor/lib64/drm/libdrmwvmplugin.so:system/vendor/lib64/drm/libdrmwvmplugin.so \
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook \
+    qcrilmsgtunnel \
+    
+PRODUCT_PACKAGES += \
+    ims \
+    imssettings \
+    imscmlibrary \
+    rcsimssettings \
+PRODUCT_PACKAGES += \
+    TimeService \
