@@ -15,6 +15,7 @@
 
 
 #Prebuilt libraries that are needed to build open-source libraries
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A6020/proprietary/bin,system/vendor/bin)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A6020/proprietary/etc/acdbdata/MTP,system/etc/acdbdata/MTP)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A6020/proprietary/etc/acdbdata/QRD,system/etc/acdbdata/QRD)
@@ -43,6 +44,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A6020/propri
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A6020/proprietary/vendor/lib64/egl,system/vendor/lib64/egl)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A6020/proprietary/vendor/lib64/hw,system/vendor/lib64/hw)
 
+
 PRODUCT_COPY_FILES += vendor/lenovo/A6020/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 PRODUCT_COPY_FILES += vendor/lenovo/A6020/proprietary/vendor/lib64/drm/libdrmwvmplugin.so:system/vendor/lib64/drm/libdrmwvmplugin.so \
 
@@ -55,6 +57,4 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     imscmlibrary \
-    rcsimssettings \
 PRODUCT_PACKAGES += \
-    TimeService \
